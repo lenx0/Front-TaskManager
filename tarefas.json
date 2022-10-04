@@ -1,0 +1,45 @@
+[{
+  "_id": "9cdb8b39-9268-4e33-996c-c81c0f64e398",
+  "Nome": "Limpar a casa",
+  "Detalhes": "Varregar, passar o pano no chão, e jogar o lixo para fora",
+  "Concluido": false,
+  "DataCadastro": {
+    "$date": {
+      "$numberLong": "1664309291847"
+    }
+  },
+  "DataConclusao": null
+},{
+  "_id": "74c2284d-1f28-4784-9708-451d9a5e723d",
+  "Nome": "Limpar o banheiro",
+  "Detalhes": "Varregar, passar o pano no chão e dar descarga",
+  "Concluido": false,
+  "DataCadastro": {
+    "$date": {
+      "$numberLong": "1664309319450"
+    }
+  },
+  "DataConclusao": null
+},{
+  "_id": "ab872a69-f087-4de4-9251-008ba19eb5f2",
+  "Nome": "Cozinhar o almoço",
+  "Detalhes": "Fazer o arroz, feijão, fritar a carne, fazer o suco e temperar a salada",
+  "Concluido": false,
+  "DataCadastro": {
+    "$date": {
+      "$numberLong": "1664309368840"
+    }
+  },
+  "DataConclusao": null
+},{
+  "_id": "19c55514-f777-4b3d-b506-b78d275324c9",
+  "Nome": "Dormir",
+  "Detalhes": "Escovar os dentes, vestir o pijama e deitar na cama",
+  "Concluido": false,
+  "DataCadastro": {
+    "$date": {
+      "$numberLong": "1664309402413"
+    }
+  },
+  "DataConclusao": null
+}]

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
+import moment from "moment";
 import "./Home.css";
-
 
 export default function Home() {
   const [item, setItem] = useState([]);
@@ -19,8 +19,12 @@ export default function Home() {
   };
   console.log(`data:${JSON.stringify(item)}`)
   return (
-    <table className="table mt-4">
-      <thead>
+    <>
+    <div className="title-container">
+      <h1>Tabela de tarefas</h1>
+    </div>
+    <table className="table table-striped">
+      <thead className="table-dark">
         <tr>
           <th>ID</th>
           <th>Nome</th>
@@ -35,12 +39,13 @@ export default function Home() {
               <td>{items.id}</td>
               <td>{items.nome}</td>
               <td>{items.detalhes}</td>
-              <td>{items.dataCadastro}</td>
+              <td>{moment(items.dataCadastro).format("DD/MM/yyyy HH:mm:ss")}</td>
             </tr>
           </tbody>
         )
       })}
     </table>
+    </>
   )
 }
 

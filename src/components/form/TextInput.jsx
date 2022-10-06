@@ -1,14 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./TextInput";
 
 function TextInput(props) {
-  const [tarefas, setTarefas] = useState({
-    id: "",
-    nome: "",
-    detalhes: "",
-    dataCadastro: "",
-  });
-
+  
   return (
     <div className="col-12 col-md-6">
       <div className="form-group form-floating mb-3">
